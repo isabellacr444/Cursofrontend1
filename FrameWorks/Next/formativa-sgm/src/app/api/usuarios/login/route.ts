@@ -38,7 +38,6 @@ export async function POST(req: NextRequest) {
             token:token,
             usuario:{
                 id:usuario.id,
-                nome: usuario.nome,
                 email: usuario.email,
                 funcao: usuario.funcao,
                 nome: usuario.nome
